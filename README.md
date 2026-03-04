@@ -1,12 +1,4 @@
-## Hi there 👋
-
-<!--
-**Manan151179/Manan151179** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...# 💫 About Me:
+# 💫 About Me:
 I am currently working on master’s in Data Science and Analytics.<br>I am looking to collaborate on projects related to LLMs, RAG pipeline, AI agents and Data analyst projects.<br>I am looking for help in finding a job in US and also willing to contribute on open source GenAI projects that will help me standout.<br>I am currently learning GenAI engineering tools that includes python, AI Agents, LLM, Rag, Big Data analytics, Machine learning and Deep Learning.<br>Ask me about my projects, my skills knowledge and my approach to achieve something.<br>I like coding but I find it hard to write code from scratch. 
 
 
@@ -33,10 +25,3 @@ I am currently working on master’s in Data Science and Analytics.<br>I am look
 [![](https://visitcount.itsvg.in/api?id=Manan151179&icon=0&color=1)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
