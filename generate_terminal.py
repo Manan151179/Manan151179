@@ -1,0 +1,66 @@
+import os
+
+svg_content = """<svg fill="none" viewBox="0 0 800 300" width="800" height="300" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 100%; }
+    }
+    @keyframes blink {
+      50% { border-color: transparent; }
+    }
+    .terminal-window {
+      fill: #0d1117;
+      rx: 8px;
+      stroke: #30363d;
+      stroke-width: 2;
+    }
+    .header { fill: #161b22; }
+    .text {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 14px;
+      fill: #c9d1d9;
+    }
+    .highlight { fill: #58a6ff; font-weight: bold; }
+    .success { fill: #3fb950; font-weight: bold; }
+    .prompt { fill: #7ee787; }
+    
+    .line {
+      display: inline-block;
+      overflow: hidden;
+      white-space: nowrap;
+      width: 0;
+      animation: typing 2s steps(40, end) forwards;
+    }
+    .l1 { animation-delay: 0.5s; }
+    .l2 { animation-delay: 2.5s; }
+    .l3 { animation-delay: 3.5s; }
+    .l4 { animation-delay: 4.5s; }
+    .l5 { animation-delay: 5.5s; }
+    .l6 { animation-delay: 6.5s; border-right: 2px solid #c9d1d9; animation: typing 1.5s steps(40, end) forwards 6.5s, blink .75s step-end infinite 8s; }
+  </style>
+
+  <rect class="terminal-window" width="100%" height="100%" />
+  <rect class="header" width="100%" height="30" rx="8" />
+  <circle cx="20" cy="15" r="6" fill="#ff5f56" />
+  <circle cx="40" cy="15" r="6" fill="#ffbd2e" />
+  <circle cx="60" cy="15" r="6" fill="#27c93f" />
+
+  <text class="text" x="20" y="65">
+    <tspan class="prompt">user@macOS</tspan>:<tspan class="highlight">~/projects/deep_learning/</tspan> $ ./initialize_ml_profile.py
+  </text>
+  
+  <g class="text" transform="translate(20, 100)">
+    <text y="0" class="line l1">&gt; Loading AI Architect Profile...</text>
+    <text y="30" class="line l2">&gt; Specialization: Deep Learning, Multi-Object Tracking (MOT), GenAI</text>
+    <text y="60" class="line l3">&gt; Architecture: LLMs, RAG Pipelines, Autonomous AI Agents</text>
+    <text y="90" class="line l4">&gt; Tooling: Python, Claude Code, Antigravity IDE</text>
+    <text y="120" class="line l5">&gt; Objective: Building highly optimized, open-source AI systems.</text>
+    <text y="160" class="line l6 success">Model loaded successfully. Awaiting inference...</text>
+  </g>
+</svg>"""
+
+with open("terminal.svg", "w") as file:
+    file.write(svg_content)
+
+print("SVG generated successfully.")
